@@ -1,0 +1,189 @@
+body {
+  background: #f2f2f2;
+  color: #685454;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  text-align: center;
+  margin: 0;
+}
+
+
+h1 {
+  color: white;
+  font-size: 5.625rem;
+}
+
+h2 {
+  color: #ea8a8a;
+  margin: 0 auto 3em auto;
+}
+
+h3 {
+  color: #ea8a8a;
+  font-size: 1em;
+  line-height: 1;
+  margin: 0;
+}
+
+
+hr {
+  border: dotted #ebd5d5 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
+}
+
+a {
+  color: #ea8a8a;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ebd5d5;
+}
+
+tr {
+
+  margin: 1em;
+}
+
+/***************** TOP SECTION *****************/
+
+.top-container {
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ebd5d5;
+  width:100%;
+}
+
+.heading-text {
+  color: #685454;
+  margin: 2rem auto;
+}
+
+.container-lined{
+  font-family: 'Sacramento', cursive;
+  margin: 0 auto;
+}
+
+.container-lined::before, .container-lined::after {
+  content: " ";
+  display: inline-block;
+  background-color: white;
+  height: 2px;
+  width: 5rem;
+  margin: 0 1rem 0.5rem 1rem;
+}
+
+/***************** MIDDLE SECTION *****************/
+
+.middle-container {
+  margin: 50px auto;
+  position: relative;
+}
+
+.profile-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 3rem auto;
+}
+
+.intro-title{
+
+}
+
+.intro-message{
+  width: 40%;
+  margin: 0 auto;
+}
+
+
+.skills-databases, .skills-Interfaces, .skills-application, .skills-coding {
+  margin: 120px auto;
+  width: 40%;
+}
+
+.interfaces-title, .interfaces-text, .coding-title, .coding-text {
+  text-align: left;
+}
+
+.computer-img, .application-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.databases-title, .databases-text, .application-title, .application-text {
+  text-align: left;
+}
+.databases-img, .coding-img {
+  float:left;
+  margin-right: 30px;
+}
+
+/*******Table Centering******/
+.center {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact{
+  margin: 100px auto;
+}
+
+.contact-title{
+
+}
+
+.contact-message{
+  margin: 50px auto;
+  width: 40%;
+}
+
+.contact-icon{
+  margin: 0;
+  position: relative;
+  margin-left: 1rem;
+  top: 0.25rem;
+
+
+}
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ea8a8a;
+  padding: 10px 20px 10px 20px;
+  border: solid #685454 2px;
+  text-decoration: none;
+  margin: 50px auto;
+}
+
+.btn:hover {
+  background: #ebd5d5;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/***************** BOTTOM SECTION *****************/
+
+.bottom-container {
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ebd5d5;
+}
+
+.footer-icon{
+  margin: 0 2rem;
+}
+
+.footer-icon:hover{
+  filter: grayscale(100%);
+}
